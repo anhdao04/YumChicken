@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Thực tập fetch apit </title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a href="#spmoi"> Sản phẩm mới</a>
+            <a href="#sphot"> Sản phẩm nổi bật</a>
+            <a href="#bai_viet"> Bài viết</a>
+            <a href="#binh_luan"> Phản hồi khách hàng</a>
+            <a href="#anh_dep"> Ảnh đẹp</a>
+        </header>
+        <nav id="menu">
+            
+        </nav>
+        <main>
+            
+            <section id="spmoi"> 
+                <h2>Sản phẩm  mới</h2>
+                <div id="data"></div> 
+            </section>        
+            <section id="sphot">
+                <h2>Sản phẩm nổi bật</h2>
+                <div id="data"></div>
+            </section>
+            <section id="bai_viet_moi">
+                <h2>Bài viết</h2>
+                <div id="data"></div>
+            </section>
+            <section id="binh_luan">
+                <h2>Phản hồi khách hàng</h2>
+                <div id="data"></div>
+            </section>
+            <section id="anh_dep">
+                <h2>Ảnh đẹp</h2>
+                <div id="data"></div>
+            </section>
+        </main>
+        <footer id="footer">Sinh viên: Vũ Thị Ánh Đào @ 2024</footer>
+    </div>
+</body>
+</html>
+
+</script>
+<script type="module">
+    const params = new URLSearchParams(location.search);
+    let id = params.get("id");
+    import {form_sua_nha_sx} from './js/admin_nsx.js';
+   document.querySelector("main").innerHTML = form_sua_nha_sx(id); 
+
+</script>

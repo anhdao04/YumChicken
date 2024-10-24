@@ -1,0 +1,754 @@
+{
+  "loai": [
+    {
+      "id": "1",
+      "ten_loai": "Đùi gà ",
+      "slug": "dui-ga",
+      "thu_tu": "1",
+      "hinh": "images/food/01-red-annule.png",
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "2",
+      "ten_loai": "Khoai tây",
+      "slug": "khoai-tay",
+      "thu_tu": "2",
+      "hinh": "images/food/Khoai-tây-chiên-Lớn.jpg",
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "3",
+      "ten_loai": "Combo Gà",
+      "slug": "combo-ga",
+      "thu_tu": "3",
+      "hinh": "images/food/ComboPepsi.png",
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "4",
+      "ten_loai": "Cánh gà",
+      "slug": "canh-ga",
+      "thu_tu": "4",
+      "hinh": null,
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "5",
+      "ten_loai": "Thức uống",
+      "slug": "thuc-uong-co-ga",
+      "thu_tu": "5",
+      "hinh": null,
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "6",
+      "ten_loai": "Hamburger",
+      "slug": "ham-bur-ger",
+      "thu_tu": "7",
+      "hinh": "images/food/Hamburger.png",
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    },
+    {
+      "id": "7",
+      "ten_loai": "Đồ ăn healthy",
+      "slug": "do-an-healthy",
+      "thu_tu": "8",
+      "hinh": "images/newFood/salad-hai-san.png.png",
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:54:57"
+    }
+  ],
+  "loai_bai_viet": [
+    {
+      "id": "1",
+      "ten": "Mẹo vặt",
+      "slug": "meo-vat",
+      "thu_tu": "1",
+      "hinh": null,
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:55:04"
+    },
+    {
+      "id": "2",
+      "ten": "Tin tức",
+      "slug": "tin-tuc",
+      "thu_tu": "2",
+      "hinh": null,
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:55:04"
+    },
+    {
+      "id": "3",
+      "ten": "Tư vấn",
+      "slug": "tu-van",
+      "thu_tu": "3",
+      "hinh": null,
+      "an_hien": "1",
+      "ngay": "2023-11-07 09:55:04"
+    }
+  ],
+  "san_pham": [
+    {
+      "id": "1",
+      "ten_sp": "Combo đùi gà chiên",
+      "slug": "combo-cui-ga-chien",
+      "sku": "DD9284-401",
+      "gia": 99000,
+      "gia_km": 0,
+      "hinh": "images/food/01-red-annule.png",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 346,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/03",
+      "han_sd": "2024-10-04",
+      "id_loai": 1,
+      "so_luong": 19
+    },
+    {
+      "id": "2",
+      "ten_sp": "Combo Hamburger",
+      "slug": "combo-hamburger",
+      "sku": "DH4071-401",
+      "gia": 99000,
+      "gia_km": 0,
+      "hinh": "images/food/Hamburger.png",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 139,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/02",
+      "han_sd": "2024-10-04",
+      "id_loai": 2,
+      "so_luong": 18
+    },
+    {
+      "id": "3",
+      "ten_sp": "Combo Pepsi và Đùi gà",
+      "slug": "combo-pepsi-va-dui-ga",
+      "sku": "FD0368-100",
+      "gia": 99000,
+      "gia_km": 0,
+      "hinh": "images/food/ComboPepsi.png",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 334,
+      "hot": 0,
+      "an_hien": 1,
+      "ngay": "2024/10/01",
+      "han_sd": "2024-10-04",
+      "id_loai": 3,
+      "so_luong": 14
+    },
+    {
+      "id": "4",
+      "ten_sp": "Khoai tây chiên",
+      "slug": "khoai-tay-chien",
+      "sku": "DH3162-100",
+      "gia": 99000,
+      "gia_km": 0,
+      "hinh": "images/food/Khoai-tây-chiên-Lớn.jpg",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 215,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/9/03",
+      "han_sd": "2024-10-04",
+      "id_loai": 2,
+      "so_luong": 12
+    },
+    {
+      "id": "5",
+      "ten_sp": "Combo Healthy",
+      "slug": "combo-healthy",
+      "sku": "HP5968",
+      "gia": 99000,
+      "gia_km": 89000,
+      "hinh": "images/food/about.png",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 237,
+      "hot": 0,
+      "an_hien": 1,
+      "ngay": "2024/8/03",
+      "han_sd": "2024-10-04",
+      "id_loai": 3,
+      "so_luong": 16
+    },
+    {
+      "id": "6",
+      "ten_sp": "Cơm BBQ gà giòn cay",
+      "slug": "com-BBQ-ga-gion-an",
+      "sku": "HP5968",
+      "gia": 45000,
+      "gia_km": 43000,
+      "hinh": "images/newFood/ComBBQ.png",
+      "mo_ta": "1 Miếng Gà + 1 Khoai Tây Chiên / 1 Khoai Tây Nghiền & Bắp Cải Trộn + 1 Pepsi (lớn)",
+      "luot_xem": 237,
+      "hot": 0,
+      "an_hien": 1,
+      "ngay": "2024/8/03",
+      "han_sd": "2024-10-04",
+      "id_loai": 1,
+      "so_luong": 16
+    },
+    {
+      "id": "7",
+      "ten_sp": "Salad hạt gà viên",
+      "slug": "salad-hat-ga-vien",
+      "sku": "DH4071-987",
+      "gia": 78000,
+      "gia_km": 0,
+      "hinh": "images/newFood/SALAD-HAT-GA-VIEN.jpg",
+      "mo_ta": "Salad hạt gà viên là một món salad hấp dẫn kết hợp giữa hạt điều, bắp, cà chua, gà viên giòn tan và rau xà lách tươi ngon, cùng với nước sốt đặc biệt, tạo nên sự kết hợp hài hòa giữa vị giòn, mềm và tươi mát.",
+      "luot_xem": 67,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/24",
+      "han_sd": "2024-10-24",
+      "id_loai": 7,
+      "so_luong": 18
+    },
+    {
+      "id": "8",
+      "ten_sp": "Salad hải sản",
+      "slug": "salad-hai-san",
+      "sku": "DH4071-765",
+      "gia": 80000,
+      "gia_km": 0,
+      "hinh": "images/newFood/salad-hai-san.png",
+      "mo_ta": "Salad hải sản là một món ăn ngon và bổ dưỡng, kết hợp giữa các loại hải sản tươi ngon như tôm, mực, cá hồi hoặc sò điệp cùng với rau sống và sốt salad. Mỗi nguyên liệu được cẩn thận chế biến và kết hợp để tạo ra một hương vị độc đáo, hòa quyện giữa vị ngọt tự nhiên của hải sản và vị tươi mát của rau sống",
+      "luot_xem": 45,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/23",
+      "han_sd": "2024-10-23",
+      "id_loai": 7,
+      "so_luong": 2
+    },
+    {
+      "id": "9",
+      "ten_sp": "Sữa gạo",
+      "slug": "salad-hai-san",
+      "sku": "DH4071-764",
+      "gia": 45000,
+      "gia_km": 0,
+      "hinh": "images/newFood/1-SUA-GAO.jpg",
+      "mo_ta": "Sữa gạo là một loại đồ uống không chứa lactose được sản xuất từ gạo và nước. Đây là một lựa chọn thay thế thú vị cho sữa động vật và thường được ưa chuộng bởi những người ăn chay, người không tiêu hóa được lactose hoặc đang tìm kiếm các sự lựa chọn sức khỏe.Sữa gạo có hương vị nhẹ nhàng, ngọt ngào và thường được sử dụng trong nhiều món ăn và thức uống. Nó cung cấp năng lượng và cung cấp một số dưỡng chất như canxi, vitamin D và các khoáng chất khác",
+      "luot_xem": 190,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/1",
+      "han_sd": "2025-12-2",
+      "id_loai": 5,
+      "so_luong": 90
+    },
+    {
+      "id": "10",
+      "ten_sp": "Combo gà và hamburger",
+      "slug": "combo-ga-hamburger",
+      "sku": "DH4071-764",
+      "gia": 139000,
+      "gia_km": 0,
+      "hinh": "images/newFood/burger_combo.jpg",
+      "mo_ta": "Combo bao gồm một Hamburger gà + một chai pepsi + một phần khoai tây",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 3,
+      "so_luong": 42
+    },
+    {
+      "id": "11",
+      "ten_sp": "Cánh gà chiên giòn",
+      "slug": "canh-ga-chien-gion",
+      "sku": "DH4071-44",
+      "gia": 30000,
+      "gia_km": 0,
+      "hinh": "images/newFood/canhga.jpg",
+      "mo_ta": "Mỗi miếng cánh gà được chế biến cẩn thận với các gia vị và bột chiên đặc biệt để tạo ra hương vị độc đáo và hấp dẫn. Cánh gà sau khi chiên giòn thường được phục vụ nóng hổi, tươi ngon và kích thích vị giác.Với vị giòn, thơm và ngon, cánh gà chiên giòn là một món ăn phổ biến và hấp dẫn, thường được yêu thích bởi nhiều người và là một lựa chọn tuyệt vời cho bất kỳ dịp nào",
+      "luot_xem": 2900,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/1",
+      "han_sd": "2025-12-2",
+      "id_loai": 4,
+      "so_luong": 90
+    },
+    {
+      "id": "12",
+      "ten_sp": "Combo gà quay và salad",
+      "slug": "combo-ga-quay",
+      "sku": "DH4071-764",
+      "gia": 139000,
+      "gia_km": 0,
+      "hinh": "images/newFood/Cb_gaquay.jpg",
+      "mo_ta": "Combo bao gồm một má đùi gà quay + một phần salad hạt + một phần nước ",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 3,
+      "so_luong": 42
+    },
+    {
+      "id": "13",
+      "ten_sp": "Gà sốt ớt xiêm xanh",
+      "slug": "ga-sot-ot-xiem-xanh",
+      "sku": "DH4071-14",
+      "gia": 56000,
+      "gia_km": 0,
+      "hinh": "images/newFood/ga_sot_ot_xiem.jpg",
+      "mo_ta": "Gà sốt ớt xiêm xanh là một món ăn ngon và đậm đà, trong đó thịt gà được chiên hoặc xào với sốt ớt xiêm xanh cay nồng và thơm ngon. Mỗi miếng thịt gà thấm đều vị của sốt ớt xiêm xanh, tạo nên hương vị đặc trưng đầy hấp dẫn.Món ăn này thường được chế biến nhanh chóng và dễ dàng, thích hợp cho cả bữa trưa và tối. Sự kết hợp giữa thịt gà thơm ngon và sốt ớt xiêm xanh cay nồng tạo nên một trải nghiệm ẩm thực độc đáo và hấp dẫn.",
+      "luot_xem": 400,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 3,
+      "so_luong": 42
+    },
+    {
+      "id": "14",
+      "ten_sp": "Gà viên",
+      "slug": "ga-vien",
+      "sku": "DH4071-764",
+      "gia": 35000,
+      "gia_km": 0,
+      "hinh": "images/newFood/gavien.jpg",
+      "mo_ta": "Combo bao gồm một má đùi gà quay + một phần salad hạt + một phần nước ",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 4,
+      "so_luong": 5
+    },
+    {
+      "id": "15",
+      "ten_sp": "Rivave",
+      "slug": "revave",
+      "sku": "DH4071-70",
+      "gia": 12000,
+      "gia_km": 0,
+      "hinh": "images/newFood/revave.jpeg",
+      "mo_ta": "Thanh mát cơ thể trong mùa nắng nóng, bổ sung năng lượng.",
+      "luot_xem": 670,
+      "hot": 0,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2025-10-12",
+      "id_loai": 5,
+      "so_luong": 79
+    },
+    {
+      "id": "16",
+      "ten_sp": "Trà lựu đỏ ",
+      "slug": "tra-luu-do",
+      "sku": "DH4071-453",
+      "gia": 45000,
+      "gia_km": 0,
+      "hinh": "images/newFood/traluudo.png",
+      "mo_ta": "Trà lựu đỏ thường được pha chế từ trà đen hoặc trà xanh, kết hợp cùng với nước lựu hoặc siro lựu để tạo ra hương vị đặc trưng. Đôi khi, trà lựu đỏ cũng có thể được phục vụ cùng với đá hoặc trân châu để tạo thêm sự thú vị.Đồ uống này thường có màu sắc hấp dẫn, từ màu đỏ tự nhiên của lựu kết hợp với màu vàng nhạt của trà. Hương thơm của trà hòa quyện với vị ngọt, chua dịu của lựu, tạo ra một hòa quện vị giác độc đáo và hấp dẫn.",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 0,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 5,
+      "so_luong": 5
+    },
+    {
+      "id": "17",
+      "ten_sp": "Trà sữa trân châu đen",
+      "slug": "tra-sua-chan-trau-den",
+      "sku": "DH4071-453",
+      "gia": 35000,
+      "gia_km": 0,
+      "hinh": "images/newFood/trasua.png",
+      "mo_ta": "Trà sữa chân trâu đen thường được chế biến từ trà đen đặc biệt, sữa tươi và đường, tạo nên một hỗn hợp thơm ngon và béo ngậy. Màu sắc của đồ uống thường là một gam nâu đậm, tùy thuộc vào lượng sữa và đường được sử dụng.Vị chát nhẹ của trà đen kết hợp hoàn hảo với vị ngọt của sữa và đường, tạo ra một hương vị cân đối và hấp dẫn. Đôi khi, trà sữa chân trâu đen cũng được phục vụ cùng với viên trân châu hoặc bọt kem phía trên để tạo thêm sự thú vị.",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 0,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 5,
+      "so_luong": 5
+    },
+    {
+      "id": "18",
+      "ten_sp": "Cocacola ",
+      "slug": "cocacola",
+      "sku": "DH4071-53",
+      "gia": 32000,
+      "gia_km": 0,
+      "hinh": "images/newFood/cocacola.png",
+      "mo_ta": "Trà lựu đỏ thường được pha chế từ trà đen hoặc trà xanh, kết hợp cùng với nước lựu hoặc siro lựu để tạo ra hương vị đặc trưng. Đôi khi, trà lựu đỏ cũng có thể được phục vụ cùng với đá hoặc trân châu để tạo thêm sự thú vị.Đồ uống này thường có màu sắc hấp dẫn, từ màu đỏ tự nhiên của lựu kết hợp với màu vàng nhạt của trà. Hương thơm của trà hòa quyện với vị ngọt, chua dịu của lựu, tạo ra một hòa quện vị giác độc đáo và hấp dẫn.",
+      "luot_xem": 670,
+      "hot": 1,
+      "an_hien": 0,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 5,
+      "so_luong": 5
+    },
+    {
+      "id": "19",
+      "ten_sp": "Trà đào",
+      "slug": "tra-dao",
+      "sku": "DH4071-7586",
+      "gia": 35000,
+      "gia_km": 0,
+      "hinh": "images/newFood/tradao.png",
+      "mo_ta": "Trà đào thường được pha chế từ trà đen hoặc trà xanh, kết hợp cùng với đào tươi, siro đào hoặc nước đào để tạo ra một thức uống thơm ngon và hấp dẫn. Thường được phục vụ cùng với đá hoặc trân châu, trà đào là một lựa chọn tuyệt vời để giải khát và thưởng thức trong những ngày nóng bức.",
+      "luot_xem": 6574,
+      "hot": 1,
+      "an_hien": 1,
+      "ngay": "2024/10/22",
+      "han_sd": "2024-10-22",
+      "id_loai": 5,
+      "so_luong": 1
+    }
+  ],
+  "binh_luan": [
+    {
+      "id": "1",
+      "noi_dung": "Sản phẩm còn hàng không ạ?",
+      "ngay": "2023-11-07 09:54:57",
+      "id_sp": 1,
+      "id_user": null,
+      "ho_ten": "Tấn Duy",
+      "email": "ntanduy2612@gmail.com"
+    },
+    {
+      "id": "2",
+      "noi_dung": "Gà rất tươi ngon và thơm, chắc chắn sẽ mua thêm. Cảm ơn shop!",
+      "ngay": "2023-11-07 09:54:57",
+      "id_sp": 1,
+      "id_user": null,
+      "ho_ten": "Nguyễn Văn Kiên",
+      "email": "anhvanh71@gmail.com"
+    },
+    {
+      "id": "3",
+      "noi_dung": "Gà được bảo quản cẩn thận, chất lượng tốt. Rất hài lòng với sản phẩm.",
+      "ngay": "2023-11-07 09:54:57",
+      "id_sp": 1,
+      "id_user": null,
+      "ho_ten": "Tâm",
+      "email": "tamttmps25065@fpt.edu.vn"
+    },
+    {
+      "id": "4",
+      "noi_dung": "Gà ở đây thịt mềm và ngon, đã mua nhiều lần và vẫn hài lòng.",
+      "ngay": "2023-11-08 11:23:45",
+      "id_sp": 1,
+      "id_user": null,
+      "ho_ten": "Hương",
+      "email": "huong123@gmail.com"
+    },
+    {
+      "id": "5",
+      "noi_dung": "Gà tươi ngon, giao hàng nhanh chóng. Sẽ tiếp tục ủng hộ!",
+      "ngay": "2023-11-09 15:40:12",
+      "id_sp": 1,
+      "id_user": null,
+      "ho_ten": "Nam",
+      "email": "nam456@gmail.com"
+    },
+    {
+      "id": "6",
+      "noi_dung": "Salad rất tươi ngon, nước sốt không quá ngậy, nói chung 100đ nha",
+      "ngay": "2023-11-09 15:40:12",
+      "id_sp": 7,
+      "id_user": null,
+      "ho_ten": "Nam",
+      "email": "nam456@gmail.com"
+    }
+  ],
+  "bai_viet": [
+    {
+      "id": "1",
+      "tieu_de": "Cách bảo quản gà",
+      "slug": "cachbaoquanga.html",
+      "mo_ta": "Gà chiên là một món ăn phổ biến và ngon miệng, thường được chuẩn bị bằng cách chiên gà trong dầu nóng cho đến khi lớp vỏ ngoài giòn và vàng ươm. Món gà chiên thường được phục vụ nóng, tạo ra hương vị hấp dẫn và cung cấp sự ngon miệng cho bữa ăn.",
+      "noi_dung": "Bảo Quản Gà Chiên Nguyên Liệu:Nếu bạn muốn bảo quản gà chiên chưa chiên, hãy đảm bảo gà đã được làm sạch và đóng gói kín trong túi zip hoặc hộp chứa thức ăn để tránh vi khuẩn và mất độ ẩm. Gà chiên chưa chiên cũng có thể được bảo quản trong tủ lạnh để duy trì chất lượng và sự tươi ngon. Bảo Quản Gà Chiên Sau Khi Chiên: Nếu bạn đã chiên gà và muốn bảo quản thức ăn thừa, hãy để cho gà nguội hoàn toàn trước khi bảo quản. Để gà chiên được giữ độ giòn, bạn có thể đặt gà vào hộp chứa giấy hoặc giấy thấm dầu để hấp thụ dầu thừa. Bảo Quản trong Tủ Lạnh: Gà chiên có thể được bảo quản trong tủ lạnh trong vòng 1-2 ngày. Để tái nhiệt gà chiên, hãy sử dụng lò nướng hoặc chiên lại trong chảo để giữ cho lớp vỏ giòn và ấm nóng trở lại. Tái Sử Dụng Gà Chiên: Khi tái sử dụng gà chiên, hãy chắc chắn chiên lại ở nhiệt độ cao để đảm bảo sự ấm nóng đều và lớp vỏ giòn. Tránh chiên lại gà quá nhiều lần vì điều này có thể làm giảm chất lượng và hương vị của món ăn.",
+      "an_hien": "1",
+      "hinh": "uploads/blog/cach-bao-quan-giay.jpg",
+      "luot_xem": "377",
+      "hot": "1",
+      "ngay": "2023-11-07",
+      "id_loai": 1
+    },
+    {
+      "id": "2",
+      "tieu_de": "Cách làm gà rán ngon và giòn cho bạn",
+      "slug": "cachlamgaranngonhtml",
+      "mo_ta": "Để làm gà rán ngon, người ta cần sử dụng gà tươi và nguyên chất, sau đó chế biến với một số gia vị cơ bản như muối, tiêu, bột chiên giòn và bột ngọt. Một số người cũng thêm các loại gia vị khác như tỏi băm, ớt, đinh hương, hành tây và bột cà ri để tăng thêm hương vị cho món ăn.Quá trình chế biến gà rán cũng rất quan trọng để đảm bảo món ăn giòn và thơm ngon.",
+      "noi_dung": "Bước 1: Chuẩn bị nguyên liệu 500g thịt gà không xương, cắt thành từng miếng vừa phải, 1 quả trứng gà, 1/4 tách bột mì, 1/4 tách bột năng, 1/2 muỗng cà phê muối, 1/2 muỗng cà phê hạt tiêu, 1 muỗng canh nước cốt chanh. Bước 2: Chế biến nguyên liệu Cho thịt gà vào một bát lớn, thêm vào muối, hạt tiêu, nước cốt chanh, trộn đều để gia vị thấm đều vào thịt. Trong một tô riêng, đập quả trứng, đánh tan. Trong một bát lớn khác, trộn đều bột mì và bột năng. Bước 3: Làm gà rán Cho thịt gà vào tô trứng, trộn đều cho đến khi thịt gà được phủ đều bởi trứng. Sau đó, cho từng miếng thịt gà qua bột mì và bột năng, đảm bảo thịt gà được phủ đều bởi bột. Làm nóng một chảo lớn, cho dầu ăn vào và đợi cho dầu nóng. Cho từng miếng thịt gà đã được lăn bột vào chảo, chiên trên lửa trung bình đến lửa lớn cho đến khi mà bề mặt thịt gà trở nên vàng và giòn. Sau khi chiên, dùng giấy thấm dầu để thấm hết dầu thừa trên bề mặt thịt gà. Bước 4: Trang trí và thưởng thức Cho gà rán ra đĩa và trang trí bằng rau thơm và chanh. Ăn kèm với các loại nước sốt như nước tương, nước mắm hoặc nước chanh ớt tùy theo sở thích.",
+      "an_hien": "1",
+      "hinh": "uploads/blog/tips-buoc-day-giay-nike-air-force-1-vua-dep-vua-chat.jpg",
+      "luot_xem": "286",
+      "hot": "0",
+      "ngay": "2023-11-07",
+      "id_loai": 4
+    },
+    {
+      "id": "3",
+      "tieu_de": "Cách làm Hamburger cực đơn giản chỉ trong 3 bước",
+      "slug": "cachlamhamburger.html",
+      "mo_ta": "Hamburger thơm ngon là món ăn nhanh khoái khẩu của rất nhiều người du nhập từ châu Âu. Cách làm món này thậm chí còn đơn giản hơn cả bánh mì kẹp truyền thống của Việt Nam nữa. Vậy bạn đã biết cách làm Hamburger chuẩn kiểu Mỹ cực đơn giản chưa?",
+      "noi_dung": "Nguyên liệu cho cách làm Hamburger nhân thịt bò: (Cho 4 người ăn) - Thịt bò xay: 300gr - Bánh mì tròn bình thường hoặc vỏ bánh Hamburger (mua tại các siêu thị, tiệm bánh): 4 chiếc - Bột chiên xù: 40gr - Phô mai cắt lát: 4 – 8 lát( 1 bánh có thể cho 1 – 2 lát phô mai tùy sở thích) - Cà chua: 2 quả - Hành tây: 1 củ - Trứng gà: 4 quả - Xà lách: 4 lá - Gia vị: muối, đường, nước mắm, tương cà, tương ớt. Bước 1: - Cho thịt bò, bột chiên xù, trứng gà vào bát to, trộn đều. Thêm 1 thìa nước mắm, 2 thìa đường vào trộn tiếp, ướp trong 30 phút cho hỗn hợp thịt, trứng, bột ngấm đều gia vị. Bước 2: - Hành tây bóc vỏ, rửa sạch, thái miếng nhỏ vừa. Cà chua rửa sạch, thái khoanh nhỏ vừa ăn. Xà lách bỏ cuống, rửa sạch, tách từng lá một. - Đun nóng dầu ăn, cho hành tây vào xào tái rồi đổ ra để ráo dầu. Hành tây sau khi xào sẽ bớt cay nồng, dễ ăn hơn. - Nặn hỗn hợp thịt bò thành bốn phần tròn, dẹt, có đường kính bằng với đường kính bánh mì đã chuẩn bị. Cho thịt bò vào chảo dầu nóng, chiên lửa nhỏ cho tới khi thịt chín, bên ngoài xém vàng là được.Bước 3: - Cắt đôi bánh mì theo chiều ngang, đặt lá xà lách rồi đến một lát cà chua, hành tây, phô mai lên trên một nửa chiếc bánh. Đặt nhân thịt bò vào giữa, xếp các loại rau, phô mai như lúc nãy lên trên miếng thịt bò, cuối cùng đặt nửa bánh mì còn lại lên. - Tiếp tục làm như vậy với phần nguyên liệu còn lại.",
+      "an_hien": "1",
+      "hinh": "uploads/blog/tips-buoc-day-giay-nike-air-force-1-vua-dep-vua-chat.jpg",
+      "luot_xem": "286",
+      "hot": "0",
+      "ngay": "2023-11-07",
+      "id_loai": 6
+    },
+    {
+      "id": "4",
+      "tieu_de": "Cách làm khoai tây chiên giòn, vàng rượm",
+      "slug": "cachlamkhoaitaychien.html",
+      "mo_ta": "Khoai tây chiên là món ăn vặt yêu thích của nhiều người, đặc biệt là các bạn trẻ. Không cần phải ra quán xá, bạn hãy tự làm khoai tây chiên ở nhà để vừa bảo đảm an toàn vừa giúp tiết kiệm chi phí. Nếu lo ngại vì dầu mỡ thì bạn hãy sử dụng nồi chiên không dầu. Cách chiên này vừa tiết kiệm thời gian, vừa hạn chế tối đa lượng dầu mỡ cần sử dụng",
+      "noi_dung": "Nguyên liệu 4 củ khoai tây 3 muỗng canh dầu ăn 1 muỗng canh muối. Cách làm : Bước 1 Sơ chế khoai tây. Khoai tây gọt vỏ rồi xắt thành từng lát vừa ăn, không nên xắt quá dày vì khoai tây sẽ lâu giòn. Ngâm khoai tây trong một chậu nước muối loãng khoảng 5 phút để khoai tây không bị thâm. Mang khoai tây đi rửa, rửa đến khi nào thấy nước trong lại là được. Bước 2 Luộc khoai tây. Chuẩn bị một nồi nước. Khi nước sôi, bạn cho 1 muỗng cà phê muối vào. Cho khoai tây vào luộc sơ khoảng 2 phút rồi vớt khoai tây ra, xả với nước lạnh và để cho khoai tây thật ráo nước. Bước 3 Đông lạnh khoai. Cho 3 muỗng canh dầu ăn vào khoai tây rồi trộn đều lên. Sau đó, bạn cho khoai tây vào túi zip rồi bóp cho ra hết phần hơi bên trong. Dàn đều khoai tây ra và không để khoai tây dồn hết dưới đáy túi. Mang túi khoai tây bảo quản trong ngăn đá tủ lạnh ít nhất 3 giờ. Bước 4 Chiên khoai.Sau khi đông lạnh đủ thời gian. Bạn đổ khoai tây vào nồi chiên không dầu và giàn đều khoai ra. Chiên lần 1 với 140 độ C trong 8 phút. Sau đó, lấy khoai ra kiểm tra và và chiên lần 2 với nhiệt độ 160 độ trong 10 phút. Lấy khoai tây ra, đảo đều và chiên lần 3 với nhiệt độ 160 độ C trong 10 phút. Chiên tổng cộng 3 lần với tổng thời gian là 28 phút. Cho khoai tây ra đĩa và thưởng thức. Nếu muốn phá cách, bạn có thể cho khoai tây vào túi zip và thêm một ít bột phô mai hoặc bơ tỏi vào lắc chung nhé!",
+      "an_hien": "1",
+      "hinh": "uploads/blog/cach-bao-quan-giay.jpg",
+      "luot_xem": "377",
+      "hot": "1",
+      "ngay": "2023-11-07",
+      "id_loai": 2
+    },
+    {
+      "id": "5",
+      "tieu_de": "5 tuyệt chiêu ăn sạch, sống xanh giúp bạn khỏe hơn mỗi ngày",
+      "slug": "tuyetchieuansach.html",
+      "mo_ta": "Nhiều mẹ nội trợ ngày càng ưa chuộng xu hướng “ăn sạch, sống xanh nhằm duy trì sức khỏe cho cả gia đình. Dù vậy, việc chọn thực phẩm đúng chuẩn và cách chế biến đảm bảo hàm lượng dinh dưỡng không hề đơn giản. Vậy làm sao để thực hiện “ăn sạch, sống xanh” hiệu quả? Cùng điểm qua 5 bí quyết dưới đây nhé!",
+      "noi_dung": "Rèn luyện cơ thể thường xuyên Việc rèn luyện thân thể bằng cách đi bộ hoặc đạp xe là một trong những cách sống xanh hữu hiệu. Theo nhiều nghiên cứu, phương pháp này không chỉ có tác dụng tăng cường thể chất, thư giãn tinh thần mà còn rèn luyện khả năng tập trung. Hơn nữa, tập thể dục ngoài trời sẽ giúp bạn hòa mình với thiên nhiên, từ đó giải tỏa mọi căng thẳng và áp lực cuộc sống. Áp dụng chế độ ăn sạch Bức ảnh chụp bữa sáng với nhiều món ăn như bánh quế, yến mạch, hoa quả và cà phê trên bàn. Hiện nay, nhiều người áp dụng chế độ eat-clean (ăn sạch) thông qua việc lựa chọn sử dụng thực phẩm hữu cơ. Đó là nguồn nguyên liệu được nuôi trồng đạt chuẩn, không có chất tăng trọng, không tồn dư thuốc trừ sâu. Điều quan trọng là bạn cần đảm bảo cung cấp đầy đủ dưỡng chất mỗi ngày cho một cơ thể khỏe mạnh.Hạn chế thức ăn chế biến sẵn Thực phẩm chế biến sẵn thường chứa chất bảo quản, tạo màu, làm ngọt… Đây đều là các yếu tố ảnh hưởng tiêu cực đến thể chất và dẫn đến nhiều căn bệnh nguy hiểm. Do đó để đảm bảo an toàn, bạn hãy đọc kỹ nhãn hiệu và thành phần sản phẩm trước khi sử dụng. Lựa chọn thực phẩm tươi xanh Kim chỉ nam của phương pháp ăn sạch sống xanh là sử dụng thực phẩm sạch, nguồn gốc rõ ràng, không chứa tồn dư hóa chất. Hãy chọn thực phẩm tươi xanh để có thể thưởng thức nguồn nguyên liệu thơm ngon và bổ dưỡng. Việc hạn chế dung nạp thức ăn đóng hộp sẽ giúp bạn tránh lượng lớn muối, đường, calo cũng như chất béo bão hòa tác động xấu đến cơ thể.",
+      "an_hien": "1",
+      "hinh": "uploads/blog/cach-bao-quan-giay.jpg",
+      "luot_xem": "377",
+      "hot": "1",
+      "ngay": "2023-11-07",
+      "id_loai": 2
+    },
+    {
+      "id": "6",
+      "tieu_de": "Các loại thực phẩm lành mạnh 50 loại thực phẩm siêu tốt cho sức khỏe",
+      "slug": "cacthucphamlanhmanh.html",
+      "mo_ta": "Rất nhiều loại thực phẩm vừa tốt cho sức khỏe vừa ngon. Bằng cách lấp đầy đĩa của bạn với trái cây, rau, protein chất lượng và các loại thực phẩm toàn phần khác, bạn sẽ có những bữa ăn đầy màu sắc, đa dạng và tốt cho sức khỏe. Dưới đây là 50 loại thực phẩm cực kỳ tốt cho sức khỏe. Hầu hết chúng đều ngon một cách đáng ngạc nhiên.",
+      "noi_dung": "1–6: Trái cây và quả mọng Trái cây và quả mọng là một trong những thực phẩm sức khỏe phổ biến nhất thế giới. Những thực phẩm ngọt ngào, bổ dưỡng này rất dễ kết hợp vào chế độ ăn uống của bạn vì chúng cần ít hoặc không cần chuẩn bị. 1. Táo Táo có nhiều chất xơ, vitamin C và nhiều chất chống oxy hóa. Chúng rất no và là món ăn nhẹ hoàn hảo nếu bạn thấy đói giữa các bữa ăn. 2. Bơ Bơ khác với hầu hết các loại trái cây vì chúng chứa nhiều chất béo lành mạnh thay vì carbs. Chúng không chỉ có kem và ngon mà còn giàu chất xơ, kali và vitamin C. 3. Chuối Chuối là một trong những nguồn cung cấp kali tốt nhất thế giới. Chúng cũng chứa nhiều vitamin B6 và chất xơ, cũng như tiện lợi và dễ di chuyển. 4. Quả việt quất Quả việt quất không chỉ ngon mà còn là một trong những nguồn cung cấp chất chống oxy hóa mạnh nhất trên thế giới. 5. Cam Cam nổi tiếng với hàm lượng vitamin C. Hơn nữa, chúng giàu chất xơ và chất chống oxy hóa. 6. Dâu tây Dâu tây rất giàu dinh dưỡng và ít carbs và calo. Chúng chứa nhiều vitamin C, chất xơ và mangan và được cho là một trong những loại thực phẩm ngon nhất tồn tại. Các loại trái cây lành mạnh khác Các loại trái cây và quả mọng lành mạnh khác bao gồm anh đào, nho, bưởi, quả kiwi, chanh, xoài, dưa, ô liu, đào, lê, dứa, mận và mâm xôi. 7. Trứng Trứng là một trong những thực phẩm bổ dưỡng nhất trên hành tinh. Trước đây chúng bị coi là có hàm lượng cholesterol cao, nhưng các nghiên cứu mới cho thấy chúng hoàn toàn an toàn và lành mạnh. 8–10: Các loại thịt Thịt chưa qua chế biến, nấu chín nhẹ là một trong những thực phẩm bổ dưỡng nhất mà bạn có thể ăn",
+      "an_hien": "1",
+      "hinh": "uploads/blog/cach-bao-quan-giay.jpg",
+      "luot_xem": "377",
+      "hot": "1",
+      "ngay": "2023-11-07",
+      "id_loai": 2
+    }
+  ],
+  "thuoc_tinh": [
+    {
+      "id": "1",
+      "id_sp": 1,
+      "thanh_phan": "đùi gà Bột bắp Bột mì Bột chiên xù Tỏi xay nhuyễn, hành tím xay nhuyễn Sữa tươi không đường Nước cốt chanh Gia vị: hạt nêm, đường, tiêu, bột ớt, dầu ăn",
+      "cach_bao_quan": "Làm nguội gà rán,Đựng trong hộp lưu trữ,Bảo quản trong tủ lạnh,Hâm nóng trước khi dùng",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "2",
+      "id_sp": 2,
+      "thanh_phan": "Bò băm, bánh mì hamburger, cà chua, hành tây, dưa chuột, phô mai, sốt mayonnaise, gia vị",
+      "cach_bao_quan": "Đựng trong túi lạnh hoặc hộp đựng thức ăn, Bảo quản trong tủ lạnh, Hâm nóng trước khi dùng (nếu cần)",
+      "nguon_goc": "Xuất xứ từ thực phẩm chất lượng cao, có thể được sản xuất tại nhiều quốc gia trên thế giới"
+    },
+    {
+      "id": "3",
+      "id_sp": 3,
+      "thanh_phan": "đùi gà Bột bắp Bột mì Bột chiên xù Tỏi xay nhuyễn, hành tím xay nhuyễn Sữa tươi không đường Nước cốt chanh Gia vị: hạt nêm, đường, tiêu, bột ớt, dầu ăn",
+      "cach_bao_quan": "Làm nguội gà rán,Đựng trong hộp lưu trữ,Bảo quản trong tủ lạnh,Hâm nóng trước khi dùng",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "4",
+      "id_sp": 4,
+      "thanh_phan": "Khoai tây, bột chiên xù, gia vị tổng hợp",
+      "cach_bao_quan": "Lưu trữ trong túi hút chân không hoặc hộp đựng thực phẩm, Bảo quản trong tủ đông hoặc tủ lạnh, Hâm nóng trước khi dùng",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "5",
+      "id_sp": 5,
+      "thanh_phan": "Xanh lúa mạch, rau sống, cà chua, dưa leo, hạt giống, sốt dầu giấm",
+      "cach_bao_quan": "Bảo quản trong hộp đựng thực phẩm, Đậy kín và để trong tủ lạnh, Thêm sốt khi ăn",
+      "nguon_goc": "Nguyên liệu sạch từ trang trại hữu cơ hoặc các nguồn cung cấp chất lượng"
+    },
+    {
+      "id": "6",
+      "id_sp": 6,
+      "thanh_phan": "Gà Giòn: Gà cắt miếng giòn giòn đã được chiên rán hoặc nướng. Cơm: Cơm nếp trắng hoặc cơm lứt. Sốt BBQ: Sốt BBQ sẽ mang lại hương vị đặc trưng và hấp dẫn cho món ăn. Bạn có thể mua sốt BBQ sẵn có hoặc tự chế biến. Rau Sống: Rau sống tươi như rau xà lách, rau mùi, dưa leo, cà chua để tăng thêm phần tươi ngon và cung cấp chất xơ. Nước Mắm Pha: Nước mắm pha chua ngọt để chấm gà và cơm. Hành Phi và Tỏi Phi: Hành phi và tỏi phi giúp tăng thêm hương vị thơm ngon cho món ăn. Hành Lá và ớt sừng: Hành lá và ớt sừng cắt nhỏ để trang trí và tạo điểm nhấn cho món cơm. Giấm Gạo: Giấm gạo để ướp rau sống hoặc dùng kèm với cơm. Dầu ăn: Dầu ăn để chiên gà hoặc xào rau sống. Gia Vị: Muối, tiêu, đường, các loại gia vị khác tùy theo khẩu vị cá nhân.",
+      "cach_bao_quan": "Bảo Quản Nhanh Chóng: Sau khi ăn xong, nhanh chóng đặt phần gà còn lại vào hộp đựng thức ăn hoặc túi ni lông để ngăn không khí và vi khuẩn tiếp xúc. Tủ Lạnh: Nếu gà vẫn còn nguyên trong vòng vài giờ sau khi ăn, hãy bảo quản trong tủ lạnh ở nhiệt độ dưới 4 độ C. Đông Lạnh: Nếu bạn không dự định sử dụng gà trong thời gian ngắn, hãy đóng gói kín hơi và đặt vào tủ đông để bảo quản lâu dài. Chuẩn Bị Lại: Khi muốn sử dụng lại, hãy hâm nóng gà đông lạnh hoặc gà đã bảo quản trong tủ lạnh trước khi ăn. Sử Dụng Kịp Thời: Tốt nhất là sử dụng gà còn lại trong vòng 2-3 ngày sau khi chế biến ban đầu để đảm bảo an toàn thực phẩm. Kiểm Tra Trước Khi Sử Dụng: Trước khi ăn, hãy kiểm tra mùi và trạng thái của gà để đảm bảo an toàn vệ sinh thực phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "7",
+      "id_sp": 7,
+      "thanh_phan": "Bao gồm rau xà lách, cà chua, hạt điều, hạt nho khô, thịt gà cắt thành miếng. Gia vị: nước sốt mè rang, hành phi, muối, bột ngọt, hạt nêm, bột chiên giòn, bột chiên xù, dầu ăn.",
+      "cach_bao_quan": "Tủ Lạnh: Salad Có Sốt: Nếu salad của bạn đã được pha sốt, hãy bảo quản trong hộp đựng thức ăn kín và đặt vào tủ lạnh. Sốt có thể làm mềm rau, nên ăn trong thời gian ngắn. Salad Khô: Nếu salad không có sốt, bạn có thể bảo quản trong hộp kín hoặc túi ni lông trong tủ lạnh. Phân Loại Thành Phần: Nếu có thể, phân loại các thành phần salad. Ví dụ, nếu có rau sống, rau xanh cứu thường bị nhanh héo, hãy giữ riêng phần này và thêm vào trước khi ăn. Không Pha Trước Sốt: Nếu có thể, hãy pha sốt vào salad ngay trước khi ăn để tránh làm mềm các thành phần khác. Chú Ý Đến Sốt: Nếu bạn muốn bảo quản salad cùng với sốt, hãy chọn loại sốt có thể bền vững trong tủ lạnh mà không làm salad trở nên nhạt nhòa. Tách Phần Salad: Nếu bạn biết sẽ còn dư salad, hãy tách phần cần ăn ra khỏi phần còn lại để bảo quản riêng. Sử Dụng Nhanh Chóng: Salad thường tốt nhất khi ăn tươi ngon ngay lập tức sau khi chế biến. Hãy cố gắng sử dụng salad càng sớm càng tốt. Kiểm Tra Trước Khi Dùng: Trước khi ăn, hãy kiểm tra salad còn lại để đảm bảo rằng không có dấu hiệu hỏng hoặc vi khuẩn.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "9",
+      "id_sp": 9,
+      "thanh_phan": "Gạo, nước, dầu, đường, muối, chất bảo quản, các chất bổ sung.",
+      "cach_bao_quan": "Đóng Chặt Nắp: Sau khi sử dụng, hãy đóng chặt nắp của hộp sữa gạo để ngăn không khí và vi khuẩn tiếp xúc với sản phẩm. Bảo Quản Trong Tủ Lạnh: Hãy đặt hộp sữa gạo vào tủ lạnh để bảo quản. Nhiệt độ lạnh giúp ngăn chặn sự phát triển của vi khuẩn và duy trì chất lượng sản phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ Nhật Bản."
+    },
+    {
+      "id": "8",
+      "id_sp": 8,
+      "thanh_phan": "Khoai tây, bột chiên xù, gia vị tổng hợp",
+      "cach_bao_quan": "Lưu trữ trong túi hút chân không hoặc hộp đựng thực phẩm, Bảo quản trong tủ đông hoặc tủ lạnh, Hâm nóng trước khi dùng",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "10",
+      "id_sp": 10,
+      "thanh_phan": "Gà Giòn: Gà cắt miếng giòn giòn đã được chiên rán hoặc nướng. Cơm: Cơm nếp trắng hoặc cơm lứt. Sốt BBQ: Sốt BBQ sẽ mang lại hương vị đặc trưng và hấp dẫn cho món ăn. Bạn có thể mua sốt BBQ sẵn có hoặc tự chế biến. Rau Sống: Rau sống tươi như rau xà lách, rau mùi, dưa leo, cà chua để tăng thêm phần tươi ngon và cung cấp chất xơ. Nước Mắm Pha: Nước mắm pha chua ngọt để chấm gà và cơm. Hành Phi và Tỏi Phi: Hành phi và tỏi phi giúp tăng thêm hương vị thơm ngon cho món ăn. Hành Lá và ớt sừng: Hành lá và ớt sừng cắt nhỏ để trang trí và tạo điểm nhấn cho món cơm. Giấm Gạo: Giấm gạo để ướp rau sống hoặc dùng kèm với cơm. Dầu ăn: Dầu ăn để chiên gà hoặc xào rau sống. Gia Vị: Muối, tiêu, đường, các loại gia vị khác tùy theo khẩu vị cá nhân.",
+      "cach_bao_quan": "Bảo Quản Nhanh Chóng: Sau khi ăn xong, nhanh chóng đặt phần gà còn lại vào hộp đựng thức ăn hoặc túi ni lông để ngăn không khí và vi khuẩn tiếp xúc. Tủ Lạnh: Nếu gà vẫn còn nguyên trong vòng vài giờ sau khi ăn, hãy bảo quản trong tủ lạnh ở nhiệt độ dưới 4 độ C. Đông Lạnh: Nếu bạn không dự định sử dụng gà trong thời gian ngắn, hãy đóng gói kín hơi và đặt vào tủ đông để bảo quản lâu dài. Chuẩn Bị Lại: Khi muốn sử dụng lại, hãy hâm nóng gà đông lạnh hoặc gà đã bảo quản trong tủ lạnh trước khi ăn. Sử Dụng Kịp Thời: Tốt nhất là sử dụng gà còn lại trong vòng 2-3 ngày sau khi chế biến ban đầu để đảm bảo an toàn thực phẩm. Kiểm Tra Trước Khi Sử Dụng: Trước khi ăn, hãy kiểm tra mùi và trạng thái của gà để đảm bảo an toàn vệ sinh thực phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "11",
+      "id_sp": 12,
+      "thanh_phan": "Gà Giòn: Gà cắt miếng giòn giòn đã được chiên rán hoặc nướng. Cơm: Cơm nếp trắng hoặc cơm lứt. Sốt BBQ: Sốt BBQ sẽ mang lại hương vị đặc trưng và hấp dẫn cho món ăn. Bạn có thể mua sốt BBQ sẵn có hoặc tự chế biến. Rau Sống: Rau sống tươi như rau xà lách, rau mùi, dưa leo, cà chua để tăng thêm phần tươi ngon và cung cấp chất xơ. Nước Mắm Pha: Nước mắm pha chua ngọt để chấm gà và cơm. Hành Phi và Tỏi Phi: Hành phi và tỏi phi giúp tăng thêm hương vị thơm ngon cho món ăn. Hành Lá và ớt sừng: Hành lá và ớt sừng cắt nhỏ để trang trí và tạo điểm nhấn cho món cơm. Giấm Gạo: Giấm gạo để ướp rau sống hoặc dùng kèm với cơm. Dầu ăn: Dầu ăn để chiên gà hoặc xào rau sống. Gia Vị: Muối, tiêu, đường, các loại gia vị khác tùy theo khẩu vị cá nhân.",
+      "cach_bao_quan": "Bảo Quản Nhanh Chóng: Sau khi ăn xong, nhanh chóng đặt phần gà còn lại vào hộp đựng thức ăn hoặc túi ni lông để ngăn không khí và vi khuẩn tiếp xúc. Tủ Lạnh: Nếu gà vẫn còn nguyên trong vòng vài giờ sau khi ăn, hãy bảo quản trong tủ lạnh ở nhiệt độ dưới 4 độ C. Đông Lạnh: Nếu bạn không dự định sử dụng gà trong thời gian ngắn, hãy đóng gói kín hơi và đặt vào tủ đông để bảo quản lâu dài. Chuẩn Bị Lại: Khi muốn sử dụng lại, hãy hâm nóng gà đông lạnh hoặc gà đã bảo quản trong tủ lạnh trước khi ăn. Sử Dụng Kịp Thời: Tốt nhất là sử dụng gà còn lại trong vòng 2-3 ngày sau khi chế biến ban đầu để đảm bảo an toàn thực phẩm. Kiểm Tra Trước Khi Sử Dụng: Trước khi ăn, hãy kiểm tra mùi và trạng thái của gà để đảm bảo an toàn vệ sinh thực phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "12",
+      "id_sp": 11,
+      "thanh_phan": "Cánh gà Bột bắp Bột mì Bột chiên xù Tỏi xay nhuyễn, hành tím xay nhuyễn Sữa tươi không đường Nước cốt chanh Gia vị: hạt nêm, đường, tiêu, bột ớt, dầu ăn",
+      "cach_bao_quan": "Làm nguội gà rán,Đựng trong hộp lưu trữ,Bảo quản trong tủ lạnh,Hâm nóng trước khi dùng",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "13",
+      "id_sp": 13,
+      "thanh_phan": "Gà sốt ớt xiêm xanh bao gồm gà, ớt xiêm xanh, gừng, hành tây, sốt ớt, dầu ăn, nước cốt dừa, muối, tiêu, hành lá, ớt chuông.",
+      "cach_bao_quan": "Bảo Quản Nhanh Chóng: Sau khi ăn xong, nhanh chóng đặt phần gà còn lại vào hộp đựng thức ăn hoặc túi ni lông để ngăn không khí và vi khuẩn tiếp xúc. Tủ Lạnh: Nếu gà vẫn còn nguyên trong vòng vài giờ sau khi ăn, hãy bảo quản trong tủ lạnh ở nhiệt độ dưới 4 độ C. Đông Lạnh: Nếu bạn không dự định sử dụng gà trong thời gian ngắn, hãy đóng gói kín hơi và đặt vào tủ đông để bảo quản lâu dài. Chuẩn Bị Lại: Khi muốn sử dụng lại, hãy hâm nóng gà đông lạnh hoặc gà đã bảo quản trong tủ lạnh trước khi ăn. Sử Dụng Kịp Thời: Tốt nhất là sử dụng gà còn lại trong vòng 2-3 ngày sau khi chế biến ban đầu để đảm bảo an toàn thực phẩm. Kiểm Tra Trước Khi Sử Dụng: Trước khi ăn, hãy kiểm tra mùi và trạng thái của gà để đảm bảo an toàn vệ sinh thực phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "14",
+      "id_sp": 14,
+      "thanh_phan": "Gà Giòn: Gà cắt miếng giòn giòn đã được chiên rán hoặc nướng. Cơm: Cơm nếp trắng hoặc cơm lứt. Sốt BBQ: Sốt BBQ sẽ mang lại hương vị đặc trưng và hấp dẫn cho món ăn. Bạn có thể mua sốt BBQ sẵn có hoặc tự chế biến. Rau Sống: Rau sống tươi như rau xà lách, rau mùi, dưa leo, cà chua để tăng thêm phần tươi ngon và cung cấp chất xơ. Nước Mắm Pha: Nước mắm pha chua ngọt để chấm gà và cơm. Hành Phi và Tỏi Phi: Hành phi và tỏi phi giúp tăng thêm hương vị thơm ngon cho món ăn. Hành Lá và ớt sừng: Hành lá và ớt sừng cắt nhỏ để trang trí và tạo điểm nhấn cho món cơm. Giấm Gạo: Giấm gạo để ướp rau sống hoặc dùng kèm với cơm. Dầu ăn: Dầu ăn để chiên gà hoặc xào rau sống. Gia Vị: Muối, tiêu, đường, các loại gia vị khác tùy theo khẩu vị cá nhân.",
+      "cach_bao_quan": "Bảo Quản Nhanh Chóng: Sau khi ăn xong, nhanh chóng đặt phần gà còn lại vào hộp đựng thức ăn hoặc túi ni lông để ngăn không khí và vi khuẩn tiếp xúc. Tủ Lạnh: Nếu gà vẫn còn nguyên trong vòng vài giờ sau khi ăn, hãy bảo quản trong tủ lạnh ở nhiệt độ dưới 4 độ C. Đông Lạnh: Nếu bạn không dự định sử dụng gà trong thời gian ngắn, hãy đóng gói kín hơi và đặt vào tủ đông để bảo quản lâu dài. Chuẩn Bị Lại: Khi muốn sử dụng lại, hãy hâm nóng gà đông lạnh hoặc gà đã bảo quản trong tủ lạnh trước khi ăn. Sử Dụng Kịp Thời: Tốt nhất là sử dụng gà còn lại trong vòng 2-3 ngày sau khi chế biến ban đầu để đảm bảo an toàn thực phẩm. Kiểm Tra Trước Khi Sử Dụng: Trước khi ăn, hãy kiểm tra mùi và trạng thái của gà để đảm bảo an toàn vệ sinh thực phẩm.",
+      "nguon_goc": "Nguyên liệu chất lượng từ các nhà cung cấp uy tín"
+    },
+    {
+      "id": "15",
+      "id_sp": 15,
+      "thanh_phan": "Thành phần tổng hợp gồm nước bão hòa, đường tổng hợp (surcose và dextrose), chất điều chỉnh độ aicd, chất điện giải, chất nhũ hóa, chất bảo quản, hỗn hợp hương giống tự nhiên, vitamin B3, B6, B12",
+      "cach_bao_quan": "Để nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp hoặc nơi có nhiệt độ cao.",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "16",
+      "id_sp": 16,
+      "thanh_phan": "Trà đen hoặc trà xanh: 50gr Lựu đỏ: 6 trái Đường cát: 55gr Bột rau câu dẻo: 8gr Bột rau câu giòn: 5gr Dầu ăn: ½ muỗng cà phê Nước: 950ml Đá viên lạnh: 1 ít Máy ép trái cây, bình đựng tương ớt,…",
+      "cach_bao_quan": "Để nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp hoặc nơi có nhiệt độ cao.",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "17",
+      "id_sp": 17,
+      "thanh_phan": "Phần trân châu đường đen Bột năng: 150g Bột cacao: 10g Đường nâu Hàn Quốc: 110g Phần trà sữa Trà đen hoặc hồng trà: 20g Đường: 25g Bột trà sữa (bột béo): 40 - 55g Sữa tươi không đường",
+      "cach_bao_quan": "Để nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp hoặc nơi có nhiệt độ cao.",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "18",
+      "id_sp": 18,
+      "thanh_phan": "Coca-Cola bao gồm nước carbonat, đường, si-rô caramen, axit phosphoric, caffeine, hương liệu tự nhiên và nhân tạo, chất bảo quản, và axit citric.",
+      "cach_bao_quan": "Để nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp hoặc nơi có nhiệt độ cao.",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    },
+    {
+      "id": "19",
+      "id_sp": 19,
+      "thanh_phan": "Thành phần cơ bản của trà đào bao gồm trà đen, đào, đường, nước, chất bảo quản (nếu có), chất tạo màu (nếu có), axit lactic (nếu có), và các chất bổ sung (nếu có).",
+      "cach_bao_quan": "Để nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp hoặc nơi có nhiệt độ cao.",
+      "nguon_goc": "Tại thị trường Viêt Nam"
+    }
+  ],
+  "nha_sx": [
+    {
+      "id": "1",
+      "ten": "Tp HCM",
+      "thu_tu": 1,
+      "an_hien": 1
+    },
+    {
+      "id": "2",
+      "ten": "Hà Nội",
+      "thu_tu": 2,
+      "an_hien": 1
+    },
+    {
+      "id": "3",
+      "ten": "Đà Nẵng",
+      "thu_tu": 3,
+      "an_hien": 1
+    },
+    {
+      "id": "4",
+      "ten": "Cần Thơ",
+      "thu_tu": 4,
+      "an_hien": 1
+    },
+    {
+      "id": "5",
+      "ten": "Hải Phòng",
+      "thu_tu": 5,
+      "an_hien": 1
+    },
+    {
+      "id": "6",
+      "ten": "Đồng Nai",
+      "thu_tu": 6,
+      "an_hien": 1
+    },
+    {
+      "id": "7",
+      "ten": "Bình Dương",
+      "thu_tu": 7,
+      "an_hien": 1
+    },
+    {
+      "id": "8",
+      "ten": "Vũng Tàu",
+      "thu_tu": 8,
+      "an_hien": 0
+    },
+    {
+      "id": "9",
+      "ten": "Đà Lạt",
+      "thu_tu": 9,
+      "an_hien": 1
+    },
+    {
+      "id": "10",
+      "ten": "Bà Rịa - Vũng Tàu",
+      "thu_tu": 10,
+      "an_hien": 0
+    }
+  ]
+}

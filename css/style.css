@@ -1,0 +1,239 @@
+* { margin:0; padding:0 ; box-sizing: border-box;  font-family: 'Times New Roman', Times, serif;}
+a { text-decoration: none;}
+html { scroll-behavior: smooth;  }
+#header { background-color: lightgoldenrodyellow; text-align: center; padding: 20px 0; }
+#header a { margin: 0 10px;  font-size: 1.5em;}
+#header a:hover { text-decoration: underline; font-weight: 600;}
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+}
+
+#menu { 
+    height:60px; line-height: 60px;text-align: center;
+    position: sticky; top:0; left:0
+}
+#menu li { list-style: none; display: inline-block; margin:auto 10px}
+#menu a { font-size: 1.2em; color:rgb(18, 17, 17)}
+#menu a:hover { color:blue; text-decoration: underline;} 
+
+#spmoi { background-color: lightcyan; padding-top:40px}
+#spmoi h2 { text-align: center; text-transform: uppercase; }
+#spmoi #data { display: flex; flex-wrap: wrap; margin-top: 30px; 
+justify-content: space-between;} 
+/* flex-wrap: wrap; chia đều mỗi dòng 3 sp */
+#spmoi #data .sp { 
+    width: 31%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#spmoi #data .sp h3 { margin-bottom:10px; font-size: 1.2em; height: 45px; color: black}
+#spmoi #data .sp p { margin: 10px; color: black}
+#spmoi #data .sp img { width: 90%; height: 250px; margin: auto; border: 1px solid black}
+
+
+#sphot { background-color: beige; padding-top:40px}
+#sphot h2 { text-align: center; text-transform: uppercase; color: black }
+#sphot #data { display: flex; flex-wrap: wrap; margin-top: 30px; justify-content: space-between;}
+#sphot #data .sp { 
+    width: 31%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#sphot #data .sp h3 { margin-bottom:10px; font-size: 1.2em; height: 45px  }
+#sphot #data .sp p { margin: 10px; color: black;}
+#sphot #data .sp img { width: 90%; height: 250px; margin: auto;  border: 1px solid black}
+
+ 
+
+#bai_viet_moi { background-color: lightcyan; padding-top:40px ; }
+#bai_viet_moi h2 { text-align: center; text-transform: uppercase; }
+#bai_viet_moi #data { display: flex; flex-wrap: wrap; margin-top: 30px; justify-content: space-between;}
+#bai_viet_moi #data .bv { 
+    width: 31%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#bai_viet_moi #data .bv h3 { margin-bottom:10px; font-size: 1.2em; height: 45px  }
+#bai_viet_moi #data .bv p { margin: 10px; text-align: justify; line-height: 150%;}
+#bai_viet_moi #data .bv img { width: 90%; height: 250px; margin: auto;  border: 1px solid black}
+
+#binh_luan { background-color:  beige; padding-top:40px}
+#binh_luan h2 { text-align: center; text-transform: uppercase; }
+#binh_luan #data { display: flex; flex-wrap: wrap; margin-top: 30px; justify-content: space-between;}
+#binh_luan #data .bl { 
+    width: 47%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#binh_luan #data .bl h5 { margin-bottom:10px; font-size: 1em;; text-align: left; }
+#binh_luan #data .bl h5 span { float:right}
+#binh_luan #data .bl p { margin: 10px; text-align: justify; line-height: 150%; max-height:200px; overflow:hidden; text-overflow: ellipsis;  }
+
+
+
+#anh_dep { background-color:  lightcyan; padding-top:40px}
+#anh_dep h2 { text-align: center; text-transform: uppercase; }
+#anh_dep #data { display: flex; flex-wrap: wrap; margin-top: 30px; justify-content: space-between;}
+#anh_dep #data .hinh { 
+    width: 31%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#anh_dep #data .hinh img { width: 100%; height: 250px; margin: auto;  border: 1px solid black}
+
+a.icontop {
+    float:right;
+    width: 35px; height: 35px; line-height: 30px;
+    border-radius: 50%; font-size: 1em;
+    border: 2px solid darkblue; color:darkblue;
+    cursor: pointer; margin-right: 20px;
+}
+a.icontop2 {
+    position: fixed; bottom: 10px; left: 5px;
+    width: 35px; height: 35px; line-height: 35px;
+    border-radius: 50%; font-size: 1.3em;
+    background-color: darkorange;
+    color:white;
+    cursor: pointer;  text-align: center;
+}
+
+
+#sp_trong_loai { background-color: beige; padding-top:40px}
+#sp_trong_loai h2 { text-align: center; text-transform: uppercase; }
+#sp_trong_loai #data { display: flex; flex-wrap: wrap; margin-top: 30px; justify-content: space-between;}
+#sp_trong_loai #data .sp { 
+    width: 31%; text-align: center; border: 1px solid darkgreen ; 
+    padding: 10px;  margin: 10px; font-size: 1.2em;
+    border-radius: 5px;  box-shadow: 1px 1px 1px salmon;
+}
+#sp_trong_loai #data .sp h3 { margin-bottom:10px; font-size: 1.2em; height: 45px  }
+#sp_trong_loai #data .sp p { margin: 10px;}
+#sp_trong_loai #data .sp img { width: 90%; height: 250px; margin: auto;  border: 1px solid black} 
+
+* {
+    box-sizing: border-box;
+}
+.listsp {
+    width: 100%;
+}
+.listsp h2 {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+.listsp #data {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.listsp #data .sp {
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+}
+.listsp #data .sp h4 {
+    margin: 10px;
+    height: 50px;
+}
+.listsp #data .sp h4 a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.listsp #data .sp p {
+    font-size: 1.2em;
+    color: darkblue;
+    font-weight: 600;
+    margin: 10px;
+}
+.listsp #data .sp img {
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#chitietsp h2 {
+    background-color: rgb(110, 172, 172);
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+#chitietsp #data {
+    padding: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 40% 20% 36%;
+    gap: 20px;
+    font-size: 1.2em;
+
+}
+#chitietsp #data #left img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 5px;
+}
+
+#right {
+    flex: 1;
+    padding: 0 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+#chitietsp {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(216, 153, 153, 0.1);
+}
+.chitietsp h2 {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.chitietsp #data {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    gap: 20px;
+    font-size: 1.3em;
+}
+.chitietsp #data #left img {
+    width: 100%;
+    height: 280px;
+    border: 1px solid black;
+}
+.listnhasx .nsx {
+    display: grid;
+    grid-template-columns: 100px auto 150px 150px 200px;
+}
+.listnhasx .nsx > * {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.3em;
+}
+.listnhasx .nsx > b {
+    background-color: darkcyan;
+    color: white;
+}
+.listnhasx .nsx > :last-child {
+    text-align: right;
+}
+.listnhasx h2 a {
+    text-decoration: none;
+}
+
+
